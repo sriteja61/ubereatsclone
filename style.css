@@ -1,0 +1,73 @@
+
+.countries-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .h1r{
+    margin-top: 50px;
+    font-size: 32px;
+    margin-left:2%;
+  }
+  .country {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+  .view-all-countries{
+    text-align: right;
+  }
+  .view-all-countries button {
+    text-decoration: underline;
+    background: none;
+    border: none;
+    font-size: 16px; 
+    cursor: pointer;
+  }
+  .country.australia {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  
+  .country.belgium {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+  
+  .country.canada {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+  }
+  
+  .country.chile {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  
+  .country.costa-rica {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  
+  .country.dominican-republic {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+  }
+  
+  .country.ecuador {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+  
+  .country.el-salvador {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+  
+  .country.france {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+  }
+  
